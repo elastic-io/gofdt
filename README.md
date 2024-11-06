@@ -6,6 +6,10 @@ The Devicetree Blob (DTB) format is a flat binary encoding of devicetree data. I
 
 
 # features
-
+This FDT implementation is a full feature implementation of FDT spec. Features includes:
+- Memory Reservation Block
+- Structure Block
+- Strings Block
+- Alignment
 
 # usage
