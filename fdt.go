@@ -53,9 +53,9 @@ type FDT struct {
 	stringTableSize int
 }
 
-func NewFDT(dst ptr) *FDT {
+func NewFDT(mem []byte) *FDT {
 	return &FDT{
-		p: dst,
+		p: ptr(&mem[0]),
 	}
 }
 

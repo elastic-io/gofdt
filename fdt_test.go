@@ -28,9 +28,9 @@ const (
 )
 
 func TestFDT_Workflow(t *testing.T) {
-	dst := make([]byte, RamBaseAddr)
+	mem := make([]byte, RamBaseAddr)
 
-	fdt := NewFDT(ptr(&dst[0]))
+	fdt := NewFDT(mem)
 
 	curPHandle := uint32(1)
 
