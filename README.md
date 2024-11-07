@@ -7,6 +7,7 @@ The device tree describes the various hardware components on the system, includi
 
 The Devicetree Blob (DTB) format is a flat binary encoding of devicetree data. It used to exchange devicetree data between software programs. For example, when booting an operating system, firmware will pass a DTB to the OS kernel(https://devicetree-specification.readthedocs.io/en/stable/flattened-format.html).
 
+gofdt is a set of fdt libraries based on spce. It currently supports API-based construction of DTB files. The output DTB files can be loaded and used by the OS kernel.
 
 # features
 This FDT implementation is a full feature implementation of FDT spec. Features includes:
