@@ -1,5 +1,6 @@
 # gofdt
 [![CI](https://github.com/elastic-io/gofdt/actions/workflows/go.yml/badge.svg?branch=main)](https://github.com/elastic-io/gofdt/actions/workflows/go.yml)
+[![Go Reference](https://pkg.go.dev/badge/github.com/elastic-io/gofdt.svg)](https://pkg.go.dev/github.com/elastic-io/gofdt)
 ![GitHub](https://img.shields.io/github/license/elastic-io/gofdt)
 
 The device tree describes the various hardware components on the system, including the CPU, memory, peripherals, etc., as well as their configuration and interconnection methods. It provides a hardware abstraction that allows the same operating system kernel to run on different hardware without having to write specific code for each hardware platform.
